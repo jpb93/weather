@@ -4,7 +4,7 @@ import WeatherContainer from './WeatherContainer'
 class App extends React.Component {
     render() {
         return(
-            <div>
+            <div className="ui fluid container">
                 <WeatherContainer />
             </div>
         )
